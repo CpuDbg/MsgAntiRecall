@@ -1,0 +1,99 @@
+
+
+;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.DATA
+EXTERN pfnHiJackDll_GetFileVersionInfoA:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoByHandle:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoExA:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoExW:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoSizeA:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoSizeExA:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoSizeExW:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoSizeW:dq;
+EXTERN pfnHiJackDll_GetFileVersionInfoW:dq;
+EXTERN pfnHiJackDll_VerFindFileA:dq;
+EXTERN pfnHiJackDll_VerFindFileW:dq;
+EXTERN pfnHiJackDll_VerInstallFileA:dq;
+EXTERN pfnHiJackDll_VerInstallFileW:dq;
+EXTERN pfnHiJackDll_VerLanguageNameA:dq;
+EXTERN pfnHiJackDll_VerLanguageNameW:dq;
+EXTERN pfnHiJackDll_VerQueryValueA:dq;
+EXTERN pfnHiJackDll_VerQueryValueW:dq;
+;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.CODE
+HiJackDll_GetFileVersionInfoA PROC
+	jmp pfnHiJackDll_GetFileVersionInfoA
+HiJackDll_GetFileVersionInfoA ENDP
+
+HiJackDll_GetFileVersionInfoByHandle PROC
+	jmp pfnHiJackDll_GetFileVersionInfoByHandle
+HiJackDll_GetFileVersionInfoByHandle ENDP
+
+HiJackDll_GetFileVersionInfoExA PROC
+	jmp pfnHiJackDll_GetFileVersionInfoExA
+HiJackDll_GetFileVersionInfoExA ENDP
+
+HiJackDll_GetFileVersionInfoExW PROC
+	jmp pfnHiJackDll_GetFileVersionInfoExW
+HiJackDll_GetFileVersionInfoExW ENDP
+
+HiJackDll_GetFileVersionInfoSizeA PROC
+	jmp pfnHiJackDll_GetFileVersionInfoSizeA
+HiJackDll_GetFileVersionInfoSizeA ENDP
+
+HiJackDll_GetFileVersionInfoSizeExA PROC
+	jmp pfnHiJackDll_GetFileVersionInfoSizeExA
+HiJackDll_GetFileVersionInfoSizeExA ENDP
+
+HiJackDll_GetFileVersionInfoSizeExW PROC
+	jmp pfnHiJackDll_GetFileVersionInfoSizeExW
+HiJackDll_GetFileVersionInfoSizeExW ENDP
+
+HiJackDll_GetFileVersionInfoSizeW PROC
+	jmp pfnHiJackDll_GetFileVersionInfoSizeW
+HiJackDll_GetFileVersionInfoSizeW ENDP
+
+HiJackDll_GetFileVersionInfoW PROC
+	jmp pfnHiJackDll_GetFileVersionInfoW
+HiJackDll_GetFileVersionInfoW ENDP
+
+HiJackDll_VerFindFileA PROC
+	jmp pfnHiJackDll_VerFindFileA
+HiJackDll_VerFindFileA ENDP
+
+HiJackDll_VerFindFileW PROC
+	jmp pfnHiJackDll_VerFindFileW
+HiJackDll_VerFindFileW ENDP
+
+HiJackDll_VerInstallFileA PROC
+	jmp pfnHiJackDll_VerInstallFileA
+HiJackDll_VerInstallFileA ENDP
+
+HiJackDll_VerInstallFileW PROC
+	jmp pfnHiJackDll_VerInstallFileW
+HiJackDll_VerInstallFileW ENDP
+
+HiJackDll_VerLanguageNameA PROC
+	jmp pfnHiJackDll_VerLanguageNameA
+HiJackDll_VerLanguageNameA ENDP
+
+HiJackDll_VerLanguageNameW PROC
+	jmp pfnHiJackDll_VerLanguageNameW
+HiJackDll_VerLanguageNameW ENDP
+
+HiJackDll_VerQueryValueA PROC
+	jmp pfnHiJackDll_VerQueryValueA
+HiJackDll_VerQueryValueA ENDP
+
+HiJackDll_VerQueryValueW PROC
+	jmp pfnHiJackDll_VerQueryValueW
+HiJackDll_VerQueryValueW ENDP
+
+END
+
+;////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

@@ -1,0 +1,282 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DIALOG_WX DIALOG DISCARDABLE  0, 0, 360, 423
+STYLE WS_POPUP
+FONT 10, "Consolas"
+BEGIN
+    PUSHBUTTON      "老板键",BTN_DISPLAY,71,370,76,29,WS_DISABLED
+    CONTROL         "消息防撤回",CHECK_REVOKE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,147,61,14
+    CONTROL         "红包提醒",CHECK_MONEY_TIP,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,193,149,48,10
+    GROUPBOX        "通用功能设置",IDC_STATIC,0,109,357,107
+    CONTROL         "消息免打扰",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,193,176,56,10
+    CONTROL         "语音提醒",CHECK_VOICE_TIP,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,277,149,48,10
+    CONTROL         "红包转发",CHECK_RECALL2,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,10,323,61,14
+    CONTROL         "红包透视并提醒",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,95,326,72,10
+    GROUPBOX        "特殊功能设置",IDC_STATIC,0,304,358,59
+    CONTROL         "发红包(透视每包额度)",IDC_CHECK6,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,195,326,92,10
+    CONTROL         "只抢豹子",CHECK_RECALL3,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,10,344,61,14
+    CONTROL         "只抢第二大",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,95,346,56,10
+    CONTROL         "只抢最小",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,195,346,48,10
+    CONTROL         "刺探微友所在地",CHECK_DISAPLY_IP,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,10,149,72,10
+    CONTROL         "记录图片",CHECK_LOG_IMG,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,10,36,61,14
+    CONTROL         "记录文件/小程序/推文",CHECK_LOG_FILE,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,91,63,96,10
+    GROUPBOX        "记录存档",IDC_STATIC,0,0,358,102
+    CONTROL         "记录语音",CHECK_LOG_VOICE,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,195,38,48,10
+    CONTROL         "记录表情符号",CHECK_LOG_EMOJI,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,278,38,64,10
+    CONTROL         "保存数据库",CHECK_LOG_SQL_SAVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,91,13,56,10
+    CONTROL         "查看历史消息",CHECK_LOG_DISPLAY,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,195,13,64,10
+    CONTROL         "记录红包",CHECK_LOG_MONEY,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,10,61,61,14
+    CONTROL         "记录撤回消息",CHECK_LOG_REVOKE,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,195,63,64,10
+    CONTROL         "记录公众号/新闻",CHECK_LOG_NEW,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,278,63,76,10
+    CONTROL         "记录文本/经典表情",CHECK_LOG_TEXT,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,91,38,84,10
+    CONTROL         "输出DbgView",CHECK_LOG_DBG,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,278,12,60,10
+    CONTROL         "删除并初始据库",CHECK_LOG_SQL_INIT,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,10,13,72,10
+    CONTROL         "记录小视频",CHECK_LOG_VIDEO,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,10,85,61,14
+    LTEXT           "微信小插件v0.3.0  支持微信版本v3.5.0.46  code by 半斤八兩",
+                    STATIC_TIP,72,407,246,8
+    CONTROL         108,BITMAP_ICON,"Static",SS_BITMAP,0,369,53,53
+    PUSHBUTTON      "X",BTN_WX_MAIN_EXIT,325,392,34,30
+    CONTROL         "解密图片",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,10,176,48,10
+    CONTROL         "解密音频",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,96,176,48,10
+    CONTROL         "解密小视频",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,278,175,56,10
+    CONTROL         "音频转发",CHECK_REVOKE2,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,10,199,61,14
+    CONTROL         "保留聊天记录",CHECK_MONEY_TIP2,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,96,201,64,10
+    CONTROL         "自动运行本插件",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,194,201,72,10
+    CONTROL         "自动更新微信",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,278,201,64,10
+    PUSHBUTTON      "保存设置",BTN_SETTING_SAVE,155,370,76,29
+    PUSHBUTTON      "读取设置",BTN_SETTING_READ,239,370,76,29
+    CONTROL         "微信客户端多开",CHECK_WXCLIENT_OPEN,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,277,123,72,10
+    CONTROL         "加密聊天内容(文本)",CHECK_RECALL4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,12,240,88,10
+    GROUPBOX        "密聊设置",IDC_STATIC,0,223,358,71
+    CONTROL         "自动解密聊天内容(文本)",IDC_CHECK15,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,137,240,104,10
+    LTEXT           "私钥:",IDC_STATIC,11,259,21,8
+    EDITTEXT        IDC_EDIT1,39,257,309,14,ES_AUTOHSCROLL
+END
+
+DIALOG_HOTKEY DIALOG DISCARDABLE  0, 0, 200, 54
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "热键设置"
+FONT 10, "System"
+BEGIN
+    CONTROL         "CTRL",RADIO_CTRL,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,2,8,34,10
+    CONTROL         "ALT",RADIO_ALT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,41,8,28,10
+    CONTROL         "WIN",RADIO_WIN,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,77,8,30,10
+    CONTROL         "SHIFT",RADIO_SHIFT,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,117,8,36,10
+    EDITTEXT        EDIT_HOTKEY,6,27,190,19,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    CONTROL         "HOME",RADIO_HOME,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED,160,8,37,10
+END
+
+DIALOG_MONEY_TIP DIALOG DISCARDABLE  0, 0, 257, 276
+STYLE WS_POPUP | WS_BORDER
+FONT 10, "System"
+BEGIN
+    CONTROL         106,IDC_STATIC,"Static",SS_BITMAP,0,0,257,256
+    LTEXT           "如果感觉不适,可以关闭抢红包提示和语音提示!",IDC_STATIC,
+                    37,261,165,8
+    PUSHBUTTON      "X",BTN_MONEY_TIP_EXIT,233,259,24,15
+END
+
+DIALOG_TOOLS DIALOG DISCARDABLE  0, 0, 18, 18
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    CONTROL         112,STATIC_BITMAP_TOOLS,"Static",SS_BITMAP,0,0,18,18
+END
+
+DIALOG_SETTINGS DIALOG DISCARDABLE  0, 0, 18, 18
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    CONTROL         118,STATIC_BITMAP_SETTINGS,"Static",SS_BITMAP,0,0,18,18
+END
+
+DIALOG_ABOUT DIALOG DISCARDABLE  0, 0, 18, 18
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    CONTROL         115,STATIC_BITMAP_ABOUT,"Static",SS_BITMAP,0,0,18,18
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    DIALOG_WX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 416
+    END
+
+    DIALOG_HOTKEY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    DIALOG_MONEY_TIP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+
+    DIALOG_TOOLS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 11
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 11
+    END
+
+    DIALOG_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 11
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 11
+    END
+
+    DIALOG_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 11
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 11
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+BITMAP_MONEY_TIP        BITMAP  DISCARDABLE     "Money3.bmp"
+BITMAP_ICON             BITMAP  DISCARDABLE     "timg.bmp"
+BITMAP_TOOLS1           BITMAP  DISCARDABLE     "工具1.bmp"
+BITMAP_TOOLS2           BITMAP  DISCARDABLE     "工具2.bmp"
+BITMAP_TOOLS3           BITMAP  DISCARDABLE     "工具3.bmp"
+BITMAP_ABOUT1           BITMAP  DISCARDABLE     "关于1.bmp"
+BITMAP_ABOUT2           BITMAP  DISCARDABLE     "关于2.bmp"
+BITMAP_ABOUT3           BITMAP  DISCARDABLE     "关于3.bmp"
+BITMAP_SETTING1         BITMAP  DISCARDABLE     "设置1.bmp"
+BITMAP_SETTING2         BITMAP  DISCARDABLE     "设置2.bmp"
+BITMAP_SETTING3         BITMAP  DISCARDABLE     "设置3.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
